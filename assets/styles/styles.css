@@ -54,7 +54,7 @@ body{
     width:80%;
     margin:0px auto;
     /* border:2px solid pink; */
-    padding:5px 0;
+    padding:20px 0;
 }
 .flex{
     display:flex;
@@ -74,6 +74,10 @@ body{
     flex-direction: column;
     align-items: flex-start;
 }
+.align-center-columnwise2{
+    justify-content: center;
+    flex-direction: column;
+}
 .align-item-center{
     justify-content: space-between;
     align-items: center;
@@ -81,11 +85,14 @@ body{
 .btn{
     background-color: #fd656b;
     color:white;
-    padding:15px 30px;
+    padding:5px 0px;
     border-radius: 5px;
     font-weight:700;
     outline: none;
     border: 0;
+}
+.btn-1 {
+    padding:15px 45px;
 }
 .btn-4{
     background-color: transparent;
@@ -101,7 +108,8 @@ body{
 
 .btn-padding{
     padding:15px 40px;
-}.btn-padding2{
+}
+.btn-padding2{
     padding:15px 60px;
 }
 .small-container{
@@ -136,18 +144,19 @@ body{
 }
 /* header styles */
 .header{
-    padding:20px 0px;
+    padding:15px 0px;
 }
 .header-nav-bar li{
     margin-left:50px;
 }
 .header-nav-bar li:nth-child(7){
-    margin-left:70px;
+    margin-left:60px;
     
 }
 .btn-1 a{
     color:white !important;
 }
+
 .header-nav-bar li a{
     text-decoration:none;
     color:#012d5b;
@@ -300,6 +309,9 @@ body{
 .services .box .fas{
     font-size: 50px;
     color:black;
+}
+.services .service-padding2{
+    padding:100px 0;
 }
 /* completed cases */
 .completed-cases{

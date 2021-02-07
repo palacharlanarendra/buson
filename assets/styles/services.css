@@ -47,23 +47,10 @@ table {
 	border-spacing: 0;
 }
 /* custom styles */
-/*about page - hero section styles*/
-.full-container{
+/*container to chance background image*/
+.services-full-container{
     max-width:100%;
-    background:url("../hero/about_hero.jpg") no-repeat;
+    background:url("../hero/services_hero.jpg") no-repeat;
     height: 300px;
     border:2px solid grey;
-}
-.flex-box{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.about-hero .heading{
-    color:white;
-}
-/*about page - trust section styles*/
-.padding-reduce{
-    padding-bottom:0px !important;
 }
