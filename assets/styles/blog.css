@@ -65,6 +65,8 @@ body{
 }
 .about-hero .heading{
     color:white;
+    font-size:50px;
+    /* border:2px solid green; */
 }
 
 /*about page - trust section styles*/

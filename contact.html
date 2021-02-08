@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Contact</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2bbf3cce3b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/styles/blog.css"/>
     <link rel="stylesheet" href="./assets/styles/styles.css"/>
     <link rel="stylesheet" href="./assets/styles/contact.css"/>
 </head>
@@ -54,15 +55,60 @@
     </header>
     <main>
         <section class="about-hero">
-            <div class="contact-full-container flex-box">
-                <h2 class="heading ">About</h2>
+            <div class="contact-hero-full-container flex-box">
+                <h2 class="heading ">Contact Us</h2>
 
             </div>
         </section>
-        <section class="contact-form">
-            
+        <section class="contact-form flex-box">
+            <div class="contact-maps contact-full-container">
+                <img class="contact-maps-img" src="assets/contact/maps.png"/>
+            </div>
         </section>
-       
+        <section class="contact-full-container">
+            <h2 class="sub-heading padding-left">Get in Touch</h2>
+            <div class="flex justify-content">
+                
+                <form class="contact-form-inputs">
+                    <div>
+                        <textarea class="text-area" name="textarea" rows="10" cols="81">Enter Message
+                        </textarea>
+                    </div>
+                    <div>
+                        <input class="name" type="name" placeholder="Enter your name"/>
+                        <input class="email" type="email" placeholder="Email"/>
+                    </div>
+                    <div>
+                        <input class="subject" type="text" placeholder="Enter Subject"/>
+                    </div>
+                    <button class="btn btn-3 btn-padding">SEND</button>
+                </form>
+                <ul class="contact-form-list">
+                    <li class="flex">
+                        <span class="contactform-icon"><i class="fas fa-house-user"></i></span>
+                        <address>
+                            <span>Buttonwood,california.</span>
+                            <div>Rosemead, CA 91770</div>
+                        </address>
+                    </li>
+                    <li class="flex">
+                        <span class="contactform-icon"><i class="fas fa-mobile-alt"></i></span>
+                        <address>
+                            <span>+1 253 565 2365</span>
+                            <div>Mon to Fri 9am to 6pm</div>
+                        </address>
+                    </li>
+                    <li class="flex">
+                        <span class="contactform-icon"><i class="far fa-envelope"></i></span>
+                        <address>
+                            <span>support@colorlib.com</span>
+                            <div>Send us your query anytime!</div>
+                        </address>
+                    </li>
+    
+                </ul>
+            </div>
+        </section>
         <section class="forms">
             <div class="small-container">
                 <div class="flex justify-content clearance2 ">
@@ -128,7 +174,7 @@
                 </ul>
             </section>
             <div class="bottom-line"></div>
-            <div class="text-align"><p>Copyright &copy; 2020 All rights reserved | This template is made with <i class="pink-color far fa-heart"></i> by <span class="pink-color">Colorlib</span></p></div>
+            <div class="text-align padding-up-down"><p>Copyright &copy; 2020 All rights reserved | This template is made with <i class="pink-color far fa-heart"></i> by <span class="pink-color">Colorlib</span></p></div>
         </div>
     </footer>
 </body>
