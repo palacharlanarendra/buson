@@ -29,7 +29,7 @@
       </ul>
     </li>
     <li>
-      <a href="### Clone">Clone Repo</a>
+      <a href="#Clone">Clone Repo</a>
     </li>
     <li><a href="#contribution">Contribution Team</a></li>
     <li><a href="#contact">Contact</a></li>
