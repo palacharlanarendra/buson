@@ -1,12 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/palacharlanarendra/buson">
-    <img src="https://drive.google.com/file/d/1ewsxsT9PUt7g6iUMNu8iYne-yWfsLPqG/view?usp=sharing" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">BUSON Project</h3>
-
   <p align="center">
     iam assigned with BUSON Coding Challenge !
     <br />
@@ -41,7 +36,7 @@
   </ol>
 </details>
 
-
+<img src="https://colorlib.com/wp/wp-content/uploads/sites/2/buson-free-template.jpg" alt="Logo" width="800" height="500">
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
