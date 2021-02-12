@@ -58,12 +58,9 @@ html{
     max-width:1620px;
     margin:0px auto;
     /* border:2px solid pink; */
-    padding:20px 0;
+    padding:20px 20px;
 }
-.common-container{
-    max-width:1400px;
-    /* border:2px solid white; */
-}
+
 .flex{
     display:flex;
     align-items:center;
@@ -120,11 +117,10 @@ html{
 .btn-padding2{
     padding:15px 60px;
 }
-.small-container{
+.container{
     max-width:1100px;
     margin:0px auto;
-    /* border:2px solid rgb(5, 106, 124); */
-    
+    padding:0px 20px;
 }
 .text-align{
     text-align:center;
@@ -202,8 +198,6 @@ html{
     position:absolute;
     left:20%;
     top:30%;
-}
-.hero-wrapper h1{
     min-width:550px;
 }
 /*common boxes styles*/
@@ -515,9 +509,10 @@ html{
     font-weight: 600;
    
 }
-.col li a,.col li address{
+.col li a,.col address{
     color:#9a9fa9 !important;
 }
+
 .logos p{
     color:#8a8d94 ;
     padding:30px 0;
@@ -1040,7 +1035,7 @@ html{
     padding:100px 0px;
 }
 /*about page - hero section styles*/
-.full-container-section{
+.about-container-section{
     background:url("../hero/about_hero.jpg") no-repeat;
     height: 300px;
     border:2px solid grey;
