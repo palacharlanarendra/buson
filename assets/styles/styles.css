@@ -56,9 +56,9 @@ html{
 }
 .big-container{
     max-width:1620px;
-    margin:0px auto;
+    margin:0 auto;
     /* border:2px solid pink; */
-    padding:20px 20px;
+    padding:20px;
 }
 
 .flex{
@@ -119,8 +119,9 @@ html{
 }
 .container{
     max-width:1100px;
-    margin:0px auto;
-    padding:0px 20px;
+    margin:0 auto;
+    padding:0 20px;
+    /* border:2px solid blue; */
 }
 .text-align{
     text-align:center;
@@ -149,9 +150,7 @@ html{
     margin-right:10px;
 }
 /* header styles */
-.header{
-    /* padding:0px 0px 15px 0px ; */
-}
+
 .header-nav-bar li{
     margin-left:40px;
 }
@@ -177,7 +176,6 @@ html{
     height:800px;
     position:relative;
     background-position: center;
-    
 }
 .welcome{
     font-size:20px;
@@ -188,7 +186,7 @@ html{
     text-transform: uppercase;
     color:#012d5b;
     font-weight: 700;
-    width:40%;
+    max-width: 600px;
     padding:22px 0 42px 0;
 }
 .btn-2{
@@ -198,7 +196,6 @@ html{
     position:absolute;
     left:20%;
     top:30%;
-    min-width:550px;
 }
 /*common boxes styles*/
 .box{
@@ -223,8 +220,7 @@ html{
     border:3px solid #fd656b;
     padding:20px;
     background-color: #ffffff;
-    /* overflow-y: auto;
-    height:400px; */
+    
 }
 .sub-heading{
     font-size: 25px;
@@ -244,7 +240,7 @@ html{
 }
 .line{
     width:30%;
-    height:3px;
+    padding:1px;
     background-color: #fd656b;
     margin: 20px 0 25px 0;
 }
@@ -674,37 +670,24 @@ html{
 }
 .cases-form .row-1-1{
     background:url("../cases/completed_case_1.png") no-repeat;
-    height: 400px;
-    background-size:cover;
 }
 .cases-form .row-1-2{
     background:url("../cases/completed_case_2.png") no-repeat;
-    height: 400px;
-    background-size:cover;
+ 
 }
 .cases-form .row-1-3{
     background:url("../cases/completed_case_3.png") no-repeat;
-    height: 400px;
-    background-size:cover;
 }
 .cases-form .row-2-1{
     background:url("../cases/completed_case_4.png") no-repeat;
-    height: 400px;
-    background-size:cover;
 }
 .cases-form .row-2-2{
     background:url("../cases/completed_case_5.png") no-repeat;
-    height: 400px;
-    background-size:cover;
 }
 .cases-form .row-2-3{
     background:url("../cases/completed_case_6.png") no-repeat;
-    height: 400px;
-    background-size:cover;
 }
-.cases-form .row-common{
-    margin-top:40px;
-}
+
 .cases-form .side-banner h2{
     font-size: 20px;
     padding:5px;
@@ -718,6 +701,9 @@ html{
 .cases-form .row-common{
     align-self: flex-end;
     position: relative;
+    height: 400px;
+    background-size:cover;
+    margin-top:40px;
 }
 .cases-form .side-banner{
     background-color: white;
@@ -727,10 +713,7 @@ html{
     top:75%;
 }
 /* blog page styles */
-
-
 .blog-container-section{
-    max-width:1920px;
     background:url("../hero/blog_hero.jpg") no-repeat;
     height: 300px;
     /* border:2px solid grey; */
@@ -772,33 +755,29 @@ html{
 .article-img-3{
     /* max-width:100%; */
     background: url("../blog/blog_3.png") no-repeat;
-    background-size:cover;
-    height:400px;
-    background-position: center;
 }
 .article-img-4{
     /* max-width:100%; */
     background: url("../blog/blog_4.png") no-repeat;
-    background-size:cover;
-    height:400px;
-    background-position: center;
 }
 .article-img-5{
     /* max-width:100%; */
     background: url("../blog/blog_5.png") no-repeat;
+}
+.article-overall{
+    box-shadow: 0px 5px 10px 4px rgb(240, 240, 240);
+    position:relative;
+    background-color: white;
+}
+.article-common{
     background-size:cover;
     height:400px;
     background-position: center;
 }
-.article-common{
-    box-shadow: 0px 5px 10px 4px rgb(240, 240, 240);
-}
 .date-banner{
-    width:50px;
-    height:50px;
     background-color: #fd656b;
     color:white;
-    padding:20px 20px;
+    padding:20px;
     border-radius: 5px;
     position:absolute;
     top:53%;
@@ -817,22 +796,12 @@ html{
 .aside-content{
     flex:0 1 34%;
     /* border:2px solid grey; */
-    height:2000px;
     align-self: flex-start;
 }
 .full-articles{
     flex:0 1 64%;
     /* border:2px solid blue; */
     align-self: flex-start;
-}
-.article-common{
-    position:relative;
-    margin-top:50px;
-    background-color: white;
-    /* border:2px solid pink; */
-}
-.margin-top-remove{
-    margin-top: 0px;
 }
 .article-heading{
     font-size:25px;
@@ -871,28 +840,22 @@ html{
     background-color: #fbf9ff;
 }
 .search-keyword .name{
-    width:80%;
-    height:34px;
-    margin-bottom:20px;
+    padding:10px 40px;
     border:none;
     border:1px solid #e2e2e2;
 }
-.search-keyword .search-button{
-    width:98%;
-    height:34px;
-    background-color: white;
-    color:#fd656b;
-    border:none;
-    border:1px solid #fd656b;
-    padding:15px 0px 30px 0px;
-    font-weight:500;
-}
 .search-keyword .search-icon-btn{
-    width:15%;
-    height:40px;
-    background-color: #fd656b;
-    margin-left:-5px;
-    
+    padding:10px;
+    background-color: #fd656b;  
+}
+.search-keyword .search-button{
+   padding:10px 120px;
+   margin-top: 20px;
+   font-weight:500;
+   background-color: white;
+   color:#fd656b;
+   border:none;
+   border:1px solid #fd656b;
 }
 .search-keyword .search-icon-btn i{
     color:white;
